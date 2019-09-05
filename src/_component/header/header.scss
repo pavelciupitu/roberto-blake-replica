@@ -11,7 +11,6 @@
   justify-content: space-between;
   align-items: center;
   border: 0.1rem solid $color-mercury;
-  color:red;
   }
 
 .header__name {
@@ -23,4 +22,12 @@
 .rbcf-menu {
   padding: 1.5rem;
   font-size: 2rem;
+}
+
+.header__menu-link {
+  color: $color-white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 1.5rem;
+  display:block;
 }
