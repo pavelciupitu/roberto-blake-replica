@@ -1,0 +1,20 @@
+.header
+  {
+    background-color: $color-mine-shaft;
+    color: $color-white;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.header__name {
+  font-size: 2rem;
+  padding: 1.5rem;
+  display: inline-block;
+}
+
+.rbcf-menu {
+  padding: 1.5rem;
+  font-size: 2rem;
+}
