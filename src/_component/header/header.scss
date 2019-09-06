@@ -32,7 +32,11 @@
   display:block;
 
   &:first-child {
-    
+    &:after {
+      font-family: 'roberto-blake-custom-font' !important;
+      content: "\e902";
+      font-size: 2rem;
+    }
   }
 }
 
