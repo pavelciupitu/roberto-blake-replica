@@ -1,4 +1,10 @@
-[{
+[
+  {
+  "href": "/",
+  "text": "",
+  "target": ""
+},
+{
   "href": "/about",
   "text": "My Story",
   "target": ""
