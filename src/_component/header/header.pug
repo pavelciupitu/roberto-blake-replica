@@ -5,6 +5,9 @@ nav.header
 
   //- pre=JSON.stringify(data['top-menu'], null, 2)
   input(type="checkbox", id="toggle-top-menu")
-  .header__menu-list
+  ul.header__menu-list
     each item in data['top-menu']
+      li.header__menu-item
       a.header__menu-link(href="item.href", target=item.target)=item.text
+      if item.type && item.type == 'dropdown'
+        .test test

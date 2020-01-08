@@ -24,6 +24,15 @@
   font-size: 2rem;
 }
 
+.header__menu-item {
+  &:first-child {
+    &:after {
+      font-family: 'roberto-blake-custom-font' !important;
+      content: "\e902";
+      font-size: 2rem;
+    }
+}
+
 .header__menu-link {
   color: $color-white;
   font-size: 1.5rem;
@@ -31,12 +40,6 @@
   padding: 1.5rem;
   display:block;
 
-  &:first-child {
-    &:after {
-      font-family: 'roberto-blake-custom-font' !important;
-      content: "\e902";
-      font-size: 2rem;
-    }
   }
 }
 
